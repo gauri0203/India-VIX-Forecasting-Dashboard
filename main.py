@@ -27,9 +27,9 @@ if not models:
     X_test = results['X_test']
     df = results['data']
 else:
-    with open("feature_names.pkl", "rb") as f:
+    with open("models/feature_names.pkl", "rb") as f:
         feature_names = pickle.load(f)
-    with open("vix_models.pkl", "rb") as f:
+    with open("models/vix_models.pkl", "rb") as f:
         models = pickle.load(f)
 
     # Load full pipeline to get metrics

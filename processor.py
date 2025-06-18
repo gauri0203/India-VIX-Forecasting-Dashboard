@@ -15,10 +15,10 @@ warnings.filterwarnings('ignore')
 def load_and_merge_data():
     """Load VIX and NIFTY data and merge them"""
     # Load VIX data
-    vix_df = pd.read_csv('india_vix.csv')
+    vix_df = pd.read_csv('data/india_vix.csv')
     
     # Load NIFTY data
-    nifty_df = pd.read_csv('nifty_50.csv')
+    nifty_df = pd.read_csv('data/nifty_50.csv')
     
     # Clean column names
     vix_df.columns = ['Date', 'VIX_Open', 'VIX_High', 'VIX_Low', 'VIX_Close', 'VIX_Prev_Close', 'VIX_Change', 'VIX_Change_Pct']
@@ -234,10 +234,10 @@ def train_models(X, y):
 
 def save_models(models, feature_names):
     """Save models and feature names"""
-    with open('vix_models.pkl', 'wb') as f:
+    with open('models/vix_models.pkl', 'wb') as f:
         pickle.dump(models, f)
     
-    with open('feature_names.pkl', 'wb') as f:
+    with open('models/feature_names.pkl', 'wb') as f:
         pickle.dump(feature_names, f)
     
     print("✅ Models saved successfully!")
@@ -245,10 +245,10 @@ def save_models(models, feature_names):
 def load_models():
     """Load saved models"""
     try:
-        with open('vix_models.pkl', 'rb') as f:
+        with open('models/vix_models.pkl', 'rb') as f:
             models = pickle.load(f)
         
-        with open('feature_names.pkl', 'rb') as f:
+        with open('models/feature_names.pkl', 'rb') as f:
             feature_names = pickle.load(f)
         
         return models, feature_names

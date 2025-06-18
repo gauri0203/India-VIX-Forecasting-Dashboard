@@ -45,6 +45,10 @@ vix-dashboard/
 ├── data/                 # Data files (CSV, models)
 ├── models/               # Trained ML models
 ├── utils/                # Helper functions
+├── screenshots/           # Dashboard screenshots
+│   ├── Screenshot1.png
+│   ├── Screenshot2.png
+│   └── Screenshot3.png
 └── README.md            # This file
 ```
 
@@ -89,60 +93,19 @@ If it doesn't open automatically, copy and paste this URL into your browser.
 
 ---
 
-## 🔧 Troubleshooting
+## 📸 Sample Outputs
 
-### Common Issues and Solutions
+Below are sample screenshots of the dashboard in action:
 
-**Issue: Permission denied when creating virtual environment**
-```bash
-# Try using python3 instead of python
-python3 -m venv myenv
-```
+![Dashboard Main Interface](screenshots/Screenshot1.png)
 
-**Issue: pip not found or outdated**
-```bash
-# Install/upgrade pip
-python -m ensurepip --upgrade
-python -m pip install --upgrade pip
-```
+![Custom Prediction](screenshots/Screenshot2.png)
 
-**Issue: Streamlit not starting**
-```bash
-# Check if streamlit is properly installed
-streamlit --version
-
-# Reinstall if necessary
-pip uninstall streamlit
-pip install streamlit
-```
+![Raw Data](screenshots/Screenshot3.png)
 
 ---
 
-## 🔄 Updating the Project
-```bash
-# Pull latest changes
-git pull origin main
 
-# Update dependencies
-pip install -r requirements.txt --upgrade
 
-# Restart the application
-streamlit run main.py
-```
 
----
 
-## 🛑 Deactivating Environment
-When you're done working on the project:
-```bash
-# Deactivate virtual environment
-deactivate
-```
-
----
-
-## 💡 Tips for Better Performance
-- Use Python 3.8+ for optimal compatibility
-- Keep your virtual environment separate for each project
-- Regularly update packages for security and performance
-- Use `pip freeze > requirements.txt` to save your working environment
