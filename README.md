@@ -39,20 +39,20 @@ The project uses:
 
 ## 📂 Project Structure
 ```
-vix-dashboard/
-├── app.py                 # Main Streamlit application
-├── requirements.txt       # Python dependencies
-├── data/                 # Data files (CSV, models)
-├── models/               # Trained ML models
-├── utils/                # Helper functions
-└── README.md            # This file
+India-VIX-Forecasting-Dashboard/
+├── main.py                     # Main Streamlit application
+├── processor.py                # Python processing file
+├── requirements.txt            # Python dependencies
+├── data/                       # Data files (CSV, models)
+├── models/                     # Trained ML models
+└── README.md                    # This file
 ```
 
 ## 🚀 How to Run This Project
 
 ### 1️⃣ Clone or Download the Repository
 ```bash
-git clone https://github.com/your-repo/vix-dashboard
+git clone https://github.com/gauri0203/India-VIX-Forecasting-Dashboard
 cd India-VIX-Forecasting-Dashboard
 ```
 
