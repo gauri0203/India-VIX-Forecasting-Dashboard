@@ -1,4 +1,4 @@
-# India VIX Forecasting Dashboard
+# 🇮🇳 India VIX Forecasting Dashboard
 
 ## 📘 Project Overview
 This project predicts **India VIX (Volatility Index)** using multiple machine learning models. VIX is crucial for assessing market fear and risk, making this tool useful for traders, analysts, and financial researchers.
@@ -39,20 +39,24 @@ The project uses:
 
 ## 📂 Project Structure
 ```
-India-VIX-Forecasting-Dashboard/
-├── main.py                     # Main Streamlit application
-├── processor.py                # Python processing file
-├── requirements.txt            # Python dependencies
-├── data/                       # Data files (CSV, models)
-├── models/                     # Trained ML models
-└── README.md                    # This file
+vix-dashboard/
+├── app.py                 # Main Streamlit application
+├── requirements.txt       # Python dependencies
+├── data/                 # Data files (CSV, models)
+├── models/               # Trained ML models
+├── utils/                # Helper functions
+├── screenshots/           # Dashboard screenshots
+│   ├── Screenshot1.png
+│   ├── Screenshot2.png
+│   └── Screenshot3.png
+└── README.md            # This file
 ```
 
 ## 🚀 How to Run This Project
 
 ### 1️⃣ Clone or Download the Repository
 ```bash
-git clone https://github.com/gauri0203/India-VIX-Forecasting-Dashboard
+git clone https://github.com/your-repo/vix-dashboard
 cd India-VIX-Forecasting-Dashboard
 ```
 
@@ -88,5 +92,20 @@ http://localhost:8501
 If it doesn't open automatically, copy and paste this URL into your browser.
 
 ---
+
+## 📸 Sample Outputs
+
+Below are sample screenshots of the dashboard in action:
+
+![Dashboard Main Interface](screenshots/Screenshot1.png)
+
+![Custom Prediction](screenshots/Screenshot2.png)
+
+![Raw Data](screenshots/Screenshot3.png)
+
+---
+
+
+
 
 
