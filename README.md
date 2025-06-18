@@ -1,4 +1,4 @@
-# 🇮🇳 India VIX Forecasting Dashboard
+# India VIX Forecasting Dashboard
 
 ## 📘 Project Overview
 This project predicts **India VIX (Volatility Index)** using multiple machine learning models. VIX is crucial for assessing market fear and risk, making this tool useful for traders, analysts, and financial researchers.
